@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/clasesqlx
+    username: root
+    password: 123456
+  jpa:
+    hibernate.ddl-auto: none
+    generate-ddl: true
+    show-sql: true
